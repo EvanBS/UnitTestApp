@@ -12,7 +12,7 @@ namespace UnitTestApp.Controllers
         public ActionResult Index()
         {
             ViewBag.Message = "Hello world";
-            return View();
+            return View("Index");
         }
     }
 }
